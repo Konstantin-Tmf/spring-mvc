@@ -36,6 +36,6 @@ public class CarController {
         model.addAttribute("cars", cars.stream().limit(count).collect(Collectors.toList()));
 
 
-        return "cars1";
+        return "cars";
     }
 }
